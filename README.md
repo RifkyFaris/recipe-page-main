@@ -8,7 +8,7 @@ Frontend Mentor project solution for recipe-page-main challenge.
 <ul>
  <li>HTML5</li>
   <li>CSS</li>
-  <li>JS</li>
+  
 </ul>
 
 # Acknowledgement
