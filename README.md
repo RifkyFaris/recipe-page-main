@@ -2,7 +2,7 @@
 # recipe-page-main
 
 Frontend Mentor project solution for recipe-page-main challenge.
-[Live](https://rifkyfaris.github.io/faq-accordion-main-Frontend-Mentor-/) 
+[Live](https://rifkyfaris.github.io/recipe-page-main/) 
 
 # Built with
 <ul>
