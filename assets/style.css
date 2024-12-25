@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+/*
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+  
+  */
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    
+    --White: hsl(0, 0%, 100%);
+
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+
+    --Brown800: hsl(14, 45%, 36%);
+
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+
+    --p : 16px;
+    --border-radius:10px;
+
+    
+
+}
+body{
+    background: var(--Stone100);
+    
+}
+.container1{
+    background: var(--White);
+    max-width: 80%;
+    margin: 50px auto;
+    border-radius: var(--border-radius);
+    padding-bottom: 50px;
+
+}
+.container2{
+    width: fit-content;
+    padding: 30px ;
+}
+.omlette{
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+.simple{
+    margin-top: 10px;
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: var(--Stone900);
+}
+.an{
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--Stone900);
+}
+.prep{
+    background: var(--Rose50);
+    margin: 30px 20px;
+    padding: 20px;
+    border-radius: var(--border-radius);
+}
+.preparation{
+    color: var(--Rose800);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+.ul-prep{
+    padding: 20px;
+    line-height: 30px;
+}
+.tot{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--Stone900);
+}
+.total{
+    font-weight: 700;
+    
+}
+.ingredients{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Brown800);
+    font-size: 25px;
+}
+.in-ul{
+    margin: 20px;
+    line-height: 25px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Stone900);
+
+}
+.instructions{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Brown800);
+    font-size: 25px;
+    margin: 20px 30px;
+}
+.hr{
+    width: 1150px;
+   
+}
+ol{
+   color: var(--Brown800);
+   margin: 20px 50px;
+   font-family: "Outfit", sans-serif;
+font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+  
+
+}
+.Beat{
+    font-weight: 700;
+    color: var(--Stone900);
+}
+.in{
+    color: var(--Stone900);
+}
+.table{
+    
+    color: var(--Stone900);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 40px;
+  
+    
+}
+.cal{
+    display: flex;
+    gap: 250px;
+    margin: 10px 0px 10px 70px;
+}
+.calo{
+    color:var(--Stone600);
+    font-size: var(--p);
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.kcal{
+    color:var(--Rose800);
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  position: absolute;
+  right: 800px;
+}
+
+@media screen and (max-width:450px) {
+    .container1{
+        max-width:100%;
+        margin: 0px 0px ;
+        border-radius: 0px;
+    }
+    .container2{
+        max-width: 100%;
+        padding: 0px ;
+    }
+    .omlette{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .simple{
+        margin: 20px ;
+        font-size: 25px;
+    }
+    .an{
+        margin: 20px;
+        font-size: 15px;
+    }
+    
+    .ingredients{
+        margin: 20px;
+    }
+    .in-ul{
+        margin-left: 40px;
+        
+        
+    }
+    .hr{
+        width:360px
+    }
+    .kcal{
+        
+      position: absolute;
+      right: 70px;
+    }
+   
+}
